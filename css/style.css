@@ -1123,6 +1123,18 @@
   .social-icons {
     margin: 35px 0;
   }
+
+  .site-container .social-icons a {
+    padding: 10px;
+  }
+
+}
+
+@media (max-width: 315px) {
+  .site-container .social-icons a {
+    padding: 5px;
+  }
+
 }
 
 .site-footer {
