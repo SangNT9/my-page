@@ -6,17 +6,17 @@
  */
 /* Fonts */
 @font-face {
-  font-family: 'Calisto-MT';
+  font-family: "Calisto-MT";
   src: url(../fonts/Calisto-MT.ttf);
 }
 
 @font-face {
-  font-family: 'Calisto-MT-Italic';
+  font-family: "Calisto-MT-Italic";
   src: url(../fonts/Calisto-MT-Italic.ttf);
 }
 
 @font-face {
-  font-family: 'Calisto-MT-Bold';
+  font-family: "Calisto-MT-Bold";
   src: url(../fonts/Calisto-MT-Bold.ttf);
 }
 
@@ -95,10 +95,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3%;
+  padding: 3% 10%;
   border: 2px solid #fff;
   border-radius: 7px;
-  background-color: #c18f59;
+  background-color: #f39c12;
 }
 
 .main-navigation .main-navigation__ul li {
@@ -111,7 +111,7 @@
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: 0.3s ease;
 }
 
@@ -136,24 +136,24 @@
 .bar3 {
   width: 30px;
   height: 3px;
-  background-color: #c18f59;
+  background-color: #f39c12;
   margin: 6px 0;
   transition: 0.4s;
 }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: #c18f59;
+  background-color: #f39c12;
 }
 
 .change .bar2 {
   opacity: 0;
-  background-color: #c18f59;
+  background-color: #f39c12;
 }
 
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -7px);
-  background-color: #c18f59;
+  background-color: #f39c12;
 }
 
 .stop-scroll {
@@ -171,7 +171,7 @@
 }
 
 .fh5co-top-banner::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -329,7 +329,7 @@
 
 .brand-span {
   font-size: 14px;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .brand-button {
@@ -338,7 +338,7 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #c18f59;
+  color: #f39c12;
   border: 1px solid #fff;
   transition: 0.3s ease;
 }
@@ -379,7 +379,7 @@
 }
 
 .about-me-bckg:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -440,8 +440,8 @@
 .span-arrow {
   padding: 10px 15px;
   cursor: pointer;
-  color: #c18f59;
-  border: 1px solid #c18f59;
+  color: #f39c12;
+  border: 1px solid #f39c12;
   border-radius: 50%;
   transition: 0.3s ease;
 }
@@ -495,7 +495,7 @@
 .portfolio-wrapper .portfolio__name span {
   font-size: 90px;
   line-height: 75px;
-  color: #c18f59;
+  color: #f39c12;
   font-family: "Calisto-MT-Bold";
 }
 
@@ -547,7 +547,7 @@
 .about-me__text p {
   margin-bottom: 35px;
   line-height: 24px;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .about-me__text p span {
@@ -566,7 +566,7 @@
 .about-me__text h4 {
   margin-bottom: 7px;
   font-size: 25px;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .about-me__text .p-white {
@@ -608,7 +608,7 @@
 .fh5co-books .books-brand-button .brand-button {
   font-size: 16px;
   text-transform: none;
-  border-color: #c18f59;
+  border-color: #f39c12;
 }
 
 .fh5co-books .books-brand-button .brand-button:hover {
@@ -679,7 +679,7 @@
   font-size: 18px;
   font-weight: 600;
   font-style: italic;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 @media (max-width: 1250px) {
@@ -704,8 +704,8 @@
   cursor: pointer;
 }
 
-.rating>span:hover:before,
-.rating>span:hover~span:before {
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
   content: "\2605";
   position: absolute;
 }
@@ -720,13 +720,13 @@
 }
 
 .fh5co-counter::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c18f59;
+  background-color: #f39c12;
   opacity: 0.9;
 }
 
@@ -853,7 +853,7 @@
   display: block;
   margin-bottom: 15px;
   font-size: 14px;
-  color: #c18f59;
+  color: #f39c12;
   font-family: "Calisto-MT-Bold";
 }
 
@@ -900,7 +900,7 @@
 }
 
 .single-blog:nth-child(even) h4 {
-  color: #c18f59;
+  color: #f39c12;
 }
 
 @media (max-width: 1250px) {
@@ -966,7 +966,7 @@
 }
 
 .fh5co-quotes::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1008,7 +1008,7 @@
 .fh5co-quotes h4 {
   margin-bottom: 5px;
   font-size: 25px;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .fh5co-quotes .slick-arrow {
@@ -1054,13 +1054,13 @@
 }
 
 .fh5co-social::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c18f59;
+  background-color: #f39c12;
   opacity: 0.9;
 }
 
@@ -1127,14 +1127,12 @@
   .site-container .social-icons a {
     padding: 10px;
   }
-
 }
 
 @media (max-width: 315px) {
   .site-container .social-icons a {
     padding: 5px;
   }
-
 }
 
 .site-footer {
@@ -1183,7 +1181,7 @@
 }
 
 .footer-info .footer-info__left p {
-  color: #c18f59;
+  color: #f39c12;
 }
 
 @media (max-width: 620px) {
@@ -1239,7 +1237,7 @@
   padding: 20px;
   border: 1px solid #404040;
   background-color: #282828;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .footer-contact-form .contact-form__input input::placeholder {
@@ -1267,7 +1265,7 @@
   border: 1px solid #404040;
   background-color: #282828;
   resize: none;
-  color: #c18f59;
+  color: #f39c12;
 }
 
 .footer-contact-form .submit-button {
@@ -1275,7 +1273,7 @@
   text-transform: uppercase;
   font-size: 12px;
   color: #fff;
-  background-color: #c18f59;
+  background-color: #f39c12;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -1307,7 +1305,7 @@
 }
 
 .footer-bottom-inner a {
-  color: #c18f59;
+  color: #f39c12;
   text-decoration: none;
   transition: 0.3s ease;
 }
